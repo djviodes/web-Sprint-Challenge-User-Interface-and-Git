@@ -71,6 +71,35 @@ p {
     margin: 0 auto;
 }
 
+.navBar{
+    display: flex;
+    width: 100%;
+    padding: 2% 0 5% 0;
+}
+
+.navBar img{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navBar nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+}  
+
+.navBar nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.headerImg{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
