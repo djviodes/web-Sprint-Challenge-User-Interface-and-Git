@@ -71,6 +71,43 @@ p {
     margin: 0 auto;
 }
 
+/*Header Stylings*/
+
+.navBar{
+    display: flex;
+    width: 100%;
+    padding: 2% 0 5% 0;
+}
+
+.navBar img{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.navBar nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    width: 80%;
+}  
+
+.navBar nav a{
+    text-decoration: none;
+    color: black;
+}
+
+.navBar nav a:hover{
+    text-decoration: underline;
+}
+
+.headerImg{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 5%;
+}
+
+/*Under Header Section Stylings*/
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -84,6 +121,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/*Boxes Section Stylings*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -104,13 +143,55 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
+    /* background: black; */
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
+
+.middle-content .boxes .box.box1{
+    background: teal;
+}
+
+.middle-content .boxes .box.box2{
+    background: gold;
+}
+
+.middle-content .boxes .box.box3{
+    background: cadetblue;
+}
+
+.middle-content .boxes .box.box4{
+    background: coral;
+}
+
+.middle-content .boxes .box.box5{
+    background: crimson;
+}
+
+.middle-content .boxes .box.box6{
+    background: forestgreen;
+}
+
+.middle-content .boxes .box.box7{
+    background: darkorchid;
+}
+
+.middle-content .boxes .box.box8{
+    background: hotpink;
+}
+
+.middle-content .boxes .box.box9{
+    background: indigo;
+}
+
+.middle-content .boxes .box.box10{
+    background: dodgerblue;
+}
+
+/*Content Beneath Boxes But Above Header Stylings*/
 
 .bottom-content {
     display: flex;
@@ -125,6 +206,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*Footer Stylings*/
 
 footer {
     width: 100%;
@@ -144,3 +227,132 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+footer nav a:hover{
+    text-decoration: underline;
+}
+
+
+/*Beginning of About Page*/
+
+/*Header and Nav get their styles above*/
+
+/*About section stylings*/
+
+#about{
+    padding: 0 3% 3% 3%;
+    border-bottom: 1px dashed black;
+}
+
+/*Learn More section stylings*/
+
+#learnMore{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 1% 1% 5% 1%;
+}
+
+.strategyHowWeWork{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4% 0 0 5%;
+}
+
+.strategyHowWeWork h2{
+    padding-top: 5%;
+}
+
+.strategy p{
+    margin-bottom: 7%;
+}
+
+.strategy a{
+    text-decoration: none;
+    color: black;
+    padding: 2% 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.strategy{
+    padding: 0 0 8% 0;
+    border-bottom: 1px dashed black;
+    margin-right: 2.5%
+}
+
+.howWeWork p{
+    margin-bottom: 7%;
+}
+
+.howWeWork a{
+    text-decoration: none;
+    color: black;
+    padding: 2% 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.howWeWork{
+    border-bottom: 1px dashed black;
+    margin-left: 2.5%;
+    padding-right: 5%;
+}
+
+.placesWeWorkCollaboration{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 4% 0 0 5%;
+}
+
+.placesWeWorkCollaboration h2{
+    padding-top: 5%;
+}
+
+.placesWeWork p{
+    margin-bottom: 7%;
+}
+
+.placesWeWork a{
+    text-decoration: none;
+    color: black;
+    padding: 2% 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.placesWeWork{
+    padding: 0 0% 8% 0;
+    border-bottom: 1px dashed black;
+    margin-right: 2.5%
+}
+
+.collaboration p{
+    margin-bottom: 7%;
+}
+
+.collaboration a{
+    text-decoration: none;
+    color: black;
+    padding: 2% 5%;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.collaboration{
+    border-bottom: 1px dashed black;
+    margin-left: 2.5%;
+    padding-right: 5%;
+}
+
+/*Let's Work Together section*/
+
+#blog{
+    padding: 0 3%;
+}
+
+#blog p{
+    padding: 0 0 3% 0;
+}
+
+/*Footer stylings can be found above*/
