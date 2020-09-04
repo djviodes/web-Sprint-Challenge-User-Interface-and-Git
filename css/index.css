@@ -71,6 +71,8 @@ p {
     margin: 0 auto;
 }
 
+/*Header Stylings*/
+
 .navBar{
     display: flex;
     width: 100%;
@@ -94,11 +96,17 @@ p {
     color: black;
 }
 
+.navBar nav a:hover{
+    text-decoration: underline;
+}
+
 .headerImg{
     display: flex;
     justify-content: center;
     padding-bottom: 5%;
 }
+
+/*Under Header Section Stylings*/
 
 .top-content {
     display: flex;
@@ -113,6 +121,8 @@ p {
     padding: 0 1%;
     padding-bottom: 20px;  
 }
+
+/*Boxes Section Stylings*/
 
 .middle-content {
     margin-bottom: 20px;
@@ -181,6 +191,8 @@ p {
     background: dodgerblue;
 }
 
+/*Content Beneath Boxes But Above Header Stylings*/
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -194,6 +206,8 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/*Footer Stylings*/
 
 footer {
     width: 100%;
@@ -213,3 +227,16 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+
+footer nav a:hover{
+    text-decoration: underline;
+}
+
+
+/*Beginning of About Page*/
+
+#about{
+    padding: 0 3% 3% 3%;
+    border-bottom: 1px dashed black;
+}
+
